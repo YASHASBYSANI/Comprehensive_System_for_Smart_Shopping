@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Smart Shopping</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Profile</string>
+    <string name="msg">Please Grant All Permissions</string>
+    <string name="email">email</string>
+    <string name="shopid">shopid</string>
+</resources>

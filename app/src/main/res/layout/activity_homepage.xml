@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.sourcey.smartshopping.HomePageActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:layout_editor_absoluteX="8dp"
+        tools:layout_editor_absoluteY="8dp">
+
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/my_toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="56dp"
+            android:layout_margin="0dp"
+            android:background="#333333"
+            android:elevation="4dp"
+            android:padding="0dp"
+            android:theme="@style/ThemeOverlay.AppCompat.ActionBar"
+            app:popupTheme="@style/ThemeOverlay.AppCompat.Light"
+            tools:layout_editor_absoluteX="8dp"
+            tools:layout_editor_absoluteY="0dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:fontFamily="serif"
+                android:gravity="center_vertical"
+                android:text="Smart Shopping - Home"
+                android:textAllCaps="true"
+                android:textColor="#ffffff"
+                android:textSize="20sp" />
+        </android.support.v7.widget.Toolbar>
+
+
+        <ImageView
+            android:id="@+id/qrcode"
+            android:layout_width="wrap_content"
+            android:layout_height="72dp"
+            android:layout_below="@+id/my_toolbar"
+            android:layout_centerHorizontal="true"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="12dp"
+            android:layout_x="1dp"
+            android:layout_y="2dp"
+            android:src="@drawable/logo"
+            tools:layout_editor_absoluteX="0dp"
+            tools:layout_editor_absoluteY="91dp" />
+
+        <Button
+            android:id="@+id/paybills"
+            android:layout_width="300dp"
+            android:layout_height="42dp"
+            android:layout_alignLeft="@+id/startshopping"
+            android:layout_alignStart="@+id/startshopping"
+            android:layout_below="@+id/startshopping"
+            android:layout_marginTop="75dp"
+            android:background="#333333"
+            android:fontFamily="serif"
+            android:text="pay bills"
+            android:textSize="18sp"
+            tools:layout_editor_absoluteX="92dp"
+            tools:layout_editor_absoluteY="163dp" />
+
+        <Button
+            android:id="@+id/startshopping"
+            android:layout_width="300dp"
+            android:layout_height="42dp"
+            android:layout_below="@+id/checkin"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="75dp"
+            android:background="#333333"
+            android:fontFamily="serif"
+            android:text="Start Shopping"
+            android:textSize="18sp"
+            tools:layout_editor_absoluteX="92dp"
+            tools:layout_editor_absoluteY="285dp" />
+
+        <Button
+            android:id="@+id/checkin"
+            android:layout_width="300dp"
+            android:layout_height="42dp"
+            android:layout_below="@+id/qrcode"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="75dp"
+            android:background="#333333"
+            android:fontFamily="serif"
+            android:text="Check In"
+            android:textColor="#ffffff"
+            android:textSize="18sp" />
+
+
+    </RelativeLayout>
+
+</LinearLayout>
+
